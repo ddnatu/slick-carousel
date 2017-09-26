@@ -1,2 +1,4 @@
 # slick-carousel
-Slick Carousel PoC
+# Slick Carousel PoC
+
+npm install to install dependencies
