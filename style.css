@@ -11,3 +11,7 @@
     color: #419be0;
     background: green;
   }
+  .carouselImages {
+      max-width: 100%;
+      height: auto;
+  }
