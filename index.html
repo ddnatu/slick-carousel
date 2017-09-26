@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <meta http-equiv="refresh" content="5" /> -->
+    
+    <title>Slick Nairobil rousel Example</title>
+    <link rel="stylesheet" type="text/css" href="./node_modules/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./node_modules/slick-carousel/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <!-- Slick carousel example. -->
+    <div class='container'>
+        <div class='single-item'>
+            <!-- <div><h3>1</h3></div>
+            <div><h3>2</h3></div>
+            <div><h3>3</h3></div>
+            <div><h3>4</h3></div>
+            <div><h3>5</h3></div>
+            <div><h3>6</h3></div> -->
+            <section><img src= "./CarouselImagesLondoff/CrslImg1.jpg" alt="carouselImage1"/></section>
+            <section><img src= "./CarouselImagesLondoff/CrslImg2.jpg" alt="carouselImage2"/></section>
+            <section><img src= "./CarouselImagesLondoff/CrslImg3.jpg" alt="carouselImage3"/></section>
+            <section><img src= "./CarouselImagesLondoff/CrslImg4.jpg" alt="carouselImage4"/></section>
+            <section><img src= "./CarouselImagesLondoff/CrslImg5.jpg" alt="carouselImage5"/></section>
+            <section><img src= "./CarouselImagesLondoff/CrslImg6.jpg" alt="carouselImage6"/></section>
+            <section><img src= "./CarouselImagesLondoff/CrslImg7.jpg" alt="carouselImage7"/></section>
+            <section><img src= "./CarouselImagesLondoff/CrslImg8.jpg" alt="carouselImage8"/></section>
+            <section><img src= "./CarouselImagesLondoff/CrslImg9.jpg" alt="carouselImage9"/></section>
+            <section><img src= "./CarouselImagesLondoff/CrslImg10.jpg" alt="carouselImage10"/></section>
+        </div>
+    </div>
+    <script type="text/javascript" src="./node_modules/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="./node_modules/slick-carousel/slick/slick.js"></script>
+    <script type="text/javascript">
+        $(".single-item").slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            responsive: [
+                {
+                breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        speed: 300,
+                    }
+                },
+                {
+                breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    </script>
+</body>
+</html>
